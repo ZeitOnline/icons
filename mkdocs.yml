@@ -1,0 +1,17 @@
+INHERIT: /zon/common_config.yaml
+site_name: ZEIT ONLINE Docs
+repo_url: https://github.com/ZeitOnline/project-template
+
+nav:
+    - index.md
+    - onboarding.md
+    - reference.md
+    - concepts.md
+    - tutorial.md
+    - cookbooks.md
+    - Architecture Decision Records:
+          - adr/001.md
+    - operations.md
+    - risk.md
+    - glossary.md
+    - releases.md
