@@ -1,0 +1,24 @@
+{
+  "name": "@zeitonline/icons",
+  "version": "0.1.4",
+  "description": "Icons from the design system of ZEIT ONLINE",
+  "main": "index.js",
+  "author": "zon-frontend, Daniel Kreitschmann",
+  "license": "ISC",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "svgo": "svgo -q -f svg -o output/svg",
+    "build": "npm run svgo"
+  },
+  "devDependencies": {
+    "svgo": "^3.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZeitOnline/icons.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ZeitOnline/icons/issues"
+  },
+  "homepage": "https://github.com/ZeitOnline/icons#readme"
+}
